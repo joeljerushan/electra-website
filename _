@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./style.css" >
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+        <div id="home" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 logo">
+                        <img src="./img/logo.png"/>
+                    </div>
+                    <div class="col-9">
+                        <ul class="menuWrap">
+                            <li><a href="/" class="active">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        <div class="sliderContent">
+            <div class="sliderwrap">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators 
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>-->
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item single active">
+                            <img class="d-block w-100" src="./img/slider1.jpg" data-color="lightblue" alt="First Image">
+                            <div class="carousel-caption d-md-block">
+                                <div class="row">
+                                    <div class="col-8 offset-2">
+                                        <div class="caption">
+                                            <h3>Design-Build to Perfection</h3>
+                                            <p>We provide a range of interior design and fit-out services tailored to the specific needs of clients, spanning the full breadth of a project from inception to completion. Client satisfaction plays a key role in every aspect of our service offerings that we provide.</p>
+                                        </div>
+                                        <a href="#" class="btn btn-rounded">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item single">
+                            <img class="d-block w-100" src="./img/slider2.jpg" data-color="firebrick" alt="Second Image">
+                            <div class="carousel-caption d-md-block">
+                                <div class="row">
+                                    <div class="col-8 offset-2">
+                                        <div class="caption">
+                                            <h3>Design-Build to Perfection</h3>
+                                            <p>We provide a range of interior design and fit-out services tailored to the specific needs of clients, spanning the full breadth of a project from inception to completion. Client satisfaction plays a key role in every aspect of our service offerings that we provide.</p>
+                                        </div>
+                                        <a href="#" class="btn btn-rounded">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item single">
+                            <img class="d-block w-100" src="./img/slider3.jpg" data-color="violet" alt="Third Image">
+                            <div class="carousel-caption d-md-block">
+                                <div class="row">
+                                    <div class="col-8 offset-2">
+                                        <div class="caption">
+                                            <h3>Design-Build to Perfection</h3>
+                                            <p>We provide a range of interior design and fit-out services tailored to the specific needs of clients, spanning the full breadth of a project from inception to completion. Client satisfaction plays a key role in every aspect of our service offerings that we provide.</p>
+                                        </div>
+                                        <a href="#" class="btn btn-rounded">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item single">
+                            <img class="d-block w-100" src="./img/slider4.jpg" data-color="violet" alt="Third Image">
+                            <div class="carousel-caption d-md-block">
+                                <div class="row">
+                                    <div class="col-8 offset-2">
+                                        <div class="caption">
+                                            <h3>Design-Build to Perfection</h3>
+                                            <p>We provide a range of interior design and fit-out services tailored to the specific needs of clients, spanning the full breadth of a project from inception to completion. Client satisfaction plays a key role in every aspect of our service offerings that we provide.</p>
+                                        </div>
+                                        <a href="#" class="btn btn-rounded">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="sliderText">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-7">
+                            <h1>For Interior Services</h1>
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4">
+                            <ul class="slider_icon">
+                                <li><span class="icon_phone"></span> +974 4029 6097</li>
+                                <li><span class="icon_mail"></span> info@electra.qa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="services" class="services">
+            <div class="servicesTitle text-center">
+                <h1>Services</h1>
+            </div>
+    
+            <div class="servicesBlock">
+    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="single">
+                                <div class="image service_image_one"></div>
+                                <div class="content">
+                                    <h2>Fit-out & Contracting </h2>
+                                    <ul>
+                                        <li>Turnkey Interior Contracting</li>
+                                        <li>Refurbishments</li>
+                                        <li>MEP Works & HVAC </li>
+                                        <li>Civil Works </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single">
+                                <div class="image service_image_two"></div>
+                                <div class="content">
+                                    <h2>Carpentry & Joinery</h2>
+                                    <ul>
+                                        <li>Bespoke and Customised Joinery</li>
+                                        <li>Wood works </li>
+                                        <li>Wooden Cladding & Panelling </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single">
+                                <div class="image service_image_three"></div>
+                                <div class="content">
+                                    <h2>Material Solutions</h2>
+                                    <ul>
+                                        <li>Flooring & Walls </li>
+                                        <li>False Ceiling</li>
+                                        <li>Painting & Decorating</li>
+                                        <li>Faux finishes & Textures </li>
+                                        <li>Corian Finishing </li>
+                                        <li>Gypsum Works</li>
+                                        <li>Glass, Acrylic & Brass Works </li>
+                                        <li>Aluminium & Steel Works</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single">
+                                <div class="image service_image_four"></div>
+                                <div class="content">
+                                    <h2>Furniture, Fixtures & Equipment (FF&E)</h2>
+                                    <ul>
+                                        <li>Lighting </li>
+                                        <li>Ready & Bespoke furniture</li>
+                                        <li>Corian Made furniture </li>
+                                        <li>Cabinet design & fabrication </li>
+                                        <li>Soft furnishing </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+
+
+        <div id="clients" class="clients">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="clientsTitle">
+                                <h1>Clientele</h1>
+                                <h2>Clientele & Brands we’ve worked with</h2>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row clientsSliderWrap">
+                        <div class="col-12">
+                            <div class="clients-slider">
+                                <div><img src="./img/clients/logo1.png" /></div>
+                                <div><img src="./img/clients/logo2.png" /></div>
+                                <div><img src="./img/clients/logo3.png" /></div>
+                                <div><img src="./img/clients/logo4.png" /></div>
+                                <div><img src="./img/clients/logo5.png" /></div>
+                                <div><img src="./img/clients/logo6.png" /></div>
+                                <div><img src="./img/clients/logo7.png" /></div>
+                                <div><img src="./img/clients/logo8.png" /></div>
+                                <div><img src="./img/clients/logo9.png" /></div>
+                                <div><img src="./img/clients/logo10.png" /></div>
+                                <div><img src="./img/clients/logo11.png" /></div>
+                                <div><img src="./img/clients/logo12.png" /></div>
+                                <div><img src="./img/clients/logo13.png" /></div>
+                                <div><img src="./img/clients/logo14.png" /></div>
+                                <div><img src="./img/clients/logo15.png" /></div>
+                                <div><img src="./img/clients/logo16.png" /></div>
+                                <div><img src="./img/clients/logo17.png" /></div>
+                                <div><img src="./img/clients/logo18.png" /></div>
+                                <div><img src="./img/clients/logo19.png" /></div>
+                                <div><img src="./img/clients/logo20.png" /></div>
+                                <div><img src="./img/clients/logo21.png" /></div>
+                                <div><img src="./img/clients/logo22.png" /></div>
+                                <div><img src="./img/clients/logo23.png" /></div>
+                                <div><img src="./img/clients/logo24.png" /></div>
+                                <div><img src="./img/clients/logo25.png" /></div>
+                                <div><img src="./img/clients/logo26.png" /></div>
+                                <div><img src="./img/clients/logo27.png" /></div>
+                                <div><img src="./img/clients/logo28.png" /></div>
+                                <div><img src="./img/clients/logo29.png" /></div>
+                                <div><img src="./img/clients/logo30.png" /></div>
+                                <div><img src="./img/clients/logo31.png" /></div>
+                                <div><img src="./img/clients/logo32.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+    <script>
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
+    </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.clients-slider').slick({ 
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        autoplay: true
+      });
+    });
+  </script>
+  </body>
+</html>
